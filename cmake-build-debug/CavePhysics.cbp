@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CavePhysics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Box2d\;CMake Files\Box2d\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CavePhysicsTest">
+				<Option output="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/CavePhysicsTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 CavePhysicsTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CavePhysicsTest/fast">
+				<Option output="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/CavePhysicsTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 CavePhysicsTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CavePhysics">
+				<Option output="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/libCavePhysics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/cordelia273/CLionProjects/CaveEngine/Physics"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 CavePhysics"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CavePhysics/fast">
+				<Option output="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/libCavePhysics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/cordelia273/CLionProjects/CaveEngine/Physics"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 CavePhysics/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="box2d">
+				<Option output="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/libbox2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 box2d"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="box2d/fast">
+				<Option output="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/libbox2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 box2d/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cordelia273/CLionProjects/CaveEngine/Physics/cmake-build-debug/Box2d/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_api.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_block_allocator.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_body.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_broad_phase.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_chain_shape.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_circle_shape.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_collision.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_common.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_contact_manager.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_distance.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_distance_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_draw.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_dynamic_tree.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_edge_shape.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_fixture.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_friction_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_gear_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_growable_stack.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_math.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_motor_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_mouse_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_polygon_shape.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_prismatic_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_pulley_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_revolute_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_rope.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_settings.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_shape.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_stack_allocator.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_time_of_impact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_time_step.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_timer.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_types.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_weld_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_wheel_joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_world.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/b2_world_callbacks.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/include/box2d/box2d.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_broad_phase.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_chain_shape.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_circle_shape.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_collide_circle.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_collide_edge.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_collide_polygon.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_collision.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_distance.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_dynamic_tree.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_edge_shape.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_polygon_shape.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/collision/b2_time_of_impact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/common/b2_block_allocator.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/common/b2_draw.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/common/b2_math.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/common/b2_settings.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/common/b2_stack_allocator.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/common/b2_timer.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_body.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_chain_circle_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_chain_circle_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_chain_polygon_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_chain_polygon_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_circle_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_circle_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_contact_manager.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_contact_solver.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_contact_solver.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_distance_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_edge_circle_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_edge_circle_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_edge_polygon_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_edge_polygon_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_fixture.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_friction_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_gear_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_island.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_island.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_motor_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_mouse_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_polygon_circle_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_polygon_circle_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_polygon_contact.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_polygon_contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_prismatic_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_pulley_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_revolute_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_weld_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_wheel_joint.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_world.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/dynamics/b2_world_callbacks.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/rope/b2_rope.cpp">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Private/Dynamics/PhysicsBody.cpp">
+			<Option target="CavePhysics"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Public/Dynamics/PhysicsBody.h">
+			<Option target="CavePhysics"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Public/Dynamics/PhysicsWorld.h">
+			<Option target="CavePhysics"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/main.cpp">
+			<Option target="CavePhysicsTest"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cordelia273/CLionProjects/CaveEngine/Physics/Box2d/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Box2d\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
